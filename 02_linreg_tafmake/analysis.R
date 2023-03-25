@@ -1,3 +1,6 @@
+cat("Running analysis ... estimated run time is 3 seconds")
+Sys.sleep(3)
+
 dat <- read.csv("data.csv")
 
 fm <- lm(y~x, dat)
